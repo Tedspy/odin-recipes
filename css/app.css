@@ -1,0 +1,64 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Utilidades */
+
+h1 {
+    font-size: 6rem;
+    text-align: center;
+    margin: 0;
+    padding: 2rem;
+}
+h2 {
+    font-size: 4rem;
+    text-align: center;
+}
+h3 {
+    font-size: 2rem;
+}
+h1, h2, h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: red;
+}
+/* .contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 90%;
+} */
+
+/* header */
+
+.nav-main {
+    text-align: center;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.list a {
+    text-decoration: none;
+    padding: 2.5rem 0;
+    margin: 0.5rem 0;
+    font-size: 3rem;
+    color: rgb(148, 148, 3);
+    background-color: red;
+    transition-property: transform;
+    transition-duration: 300ms; 
+}
+.list a:hover {
+    color: red;
+    background-color: rgb(148, 148, 3);
+    font-size: 4rem;
+    transform: scale(1.1)
+}
