@@ -4,4 +4,4 @@
 
 Se estructura una página web sencilla sobre recetas de comida
 
-Más adelante se añadirá CSS y la página web será responsive
+Ya le he añadido un poco de css
