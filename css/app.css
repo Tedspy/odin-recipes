@@ -13,14 +13,12 @@ img {
 /* Utilidades */
 
 h1 {
-    font-size: 6rem;
-    text-align: center;
+    font-size: 6rem;text-align: center;
     margin: 0;
     padding: 2rem;
 }
 h2 {
     font-size: 4rem;
-    text-align: center;
 }
 h3 {
     font-size: 2rem;
@@ -29,36 +27,45 @@ h1, h2, h3 {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     color: red;
-}
-/* .contenedor {
-    max-width: 120rem;
-    margin: 0 auto;
-    width: 90%;
-} */
-
-/* header */
-
-.nav-main {
     text-align: center;
 }
-.list {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
+/* 
+@media (min-width: 768px) {
+    .contenedor {
+        max-width: 120rem;
+        margin: 0 auto;
+        width: 90%;
+    }
+} */
+
+
+.nav-main {
+    width: 100%;
+    text-align: center;
 }
-.list a {
+
+.list {
+    padding: 0;
+    list-style: none;   
+}
+a {
+    padding: 1rem;
+    margin: 0.3rem 0;
+    display: block;
     text-decoration: none;
-    padding: 2.5rem 0;
-    margin: 0.5rem 0;
     font-size: 3rem;
     color: rgb(148, 148, 3);
     background-color: red;
     transition-property: transform;
     transition-duration: 300ms; 
 }
-.list a:hover {
+a:hover {
     color: red;
     background-color: rgb(148, 148, 3);
     font-size: 4rem;
-    transform: scale(1.1)
+    transform: scale(1.1);
+}
+
+.content a {
+    text-align: center;
 }
