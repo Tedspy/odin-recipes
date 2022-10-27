@@ -13,7 +13,7 @@ img {
 /* Utilidades */
 
 h1 {
-    font-size: 6rem;text-align: center;
+    font-size: 6rem;
     margin: 0;
     padding: 2rem;
 }
@@ -29,27 +29,25 @@ h1, h2, h3 {
     color: red;
     text-align: center;
 }
-/* 
+
 @media (min-width: 768px) {
     .contenedor {
         max-width: 120rem;
         margin: 0 auto;
         width: 90%;
     }
-} */
-
-
-.nav-main {
-    width: 100%;
-    text-align: center;
 }
 
+.nav-main {
+    text-align: center;
+}
 .list {
     padding: 0;
     list-style: none;   
 }
-a {
-    padding: 1rem;
+
+.link {
+    padding: 1rem 0;
     margin: 0.3rem 0;
     display: block;
     text-decoration: none;
@@ -59,13 +57,39 @@ a {
     transition-property: transform;
     transition-duration: 300ms; 
 }
-a:hover {
+@media (min-width: 789px) {
+    .list li {
+        display: inline-block;
+    }
+    
+    .link {
+        width: 100%;
+        padding: 0.5rem;
+        margin: 1rem 5.5rem;
+    }
+}
+
+.link:hover {
     color: red;
     background-color: rgb(148, 148, 3);
     font-size: 4rem;
     transform: scale(1.1);
 }
 
-.content a {
+.content .link {
+    text-align: center;
+}
+.footer {
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 5rem;
+}
+
+/* PIZZA */
+
+.ingredientes {
+    font-size: 3rem;
+    list-style: square;
+    list-style-position: inside;
     text-align: center;
 }
