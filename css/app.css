@@ -14,7 +14,6 @@ img {
 
 h1 {
     font-size: 6rem;
-    margin: 0;
     padding: 2rem;
 }
 h2 {
@@ -28,6 +27,7 @@ h1, h2, h3 {
     font-weight: bold;
     color: red;
     text-align: center;
+    margin: 4rem 0;
 }
 
 @media (min-width: 768px) {
@@ -116,4 +116,8 @@ h1, h2, h3 {
     .content-one .link{
         margin: 0 auto;
     }
+}
+.recetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
